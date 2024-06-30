@@ -1,6 +1,8 @@
 package com.example.project.frontend;
 
 import com.example.project.backend.OrderService;
+
+import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -45,6 +47,7 @@ public class RecordProductDeliveryScene {
 
     @SuppressWarnings("exports")
     public VBox getLayout() {
+        layout.setAlignment(Pos.CENTER);
         return layout;
     }
 }

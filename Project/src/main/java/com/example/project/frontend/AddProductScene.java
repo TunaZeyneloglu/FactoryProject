@@ -1,6 +1,8 @@
 package com.example.project.frontend;
 
 import com.example.project.backend.ProductService;
+
+import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
@@ -38,6 +40,7 @@ public class AddProductScene {
 
     @SuppressWarnings("exports")
     public VBox getLayout() {
+        layout.setAlignment(Pos.CENTER);
         return layout;
     }
 }

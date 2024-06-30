@@ -1,6 +1,8 @@
 package com.example.project.frontend;
 
 import com.example.project.backend.CustomerService;
+
+import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
@@ -24,6 +26,7 @@ public class ViewAllBalancesScene {
 
     @SuppressWarnings("exports")
     public VBox getLayout() {
+        layout.setAlignment(Pos.CENTER);
         return layout;
     }
 }
